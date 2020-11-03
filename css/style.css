@@ -110,10 +110,10 @@ header{
 
   }
   .aboutme{
-      grid-row: 1/span 1;
+      grid-row: 1/auto;
   }
   .info{
-      grid-row: 2/span 1;
+      grid-row: 2/auto;
   }
 
    .stats_container{
