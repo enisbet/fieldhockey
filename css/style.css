@@ -169,6 +169,9 @@ header{
   }
 
   @media screen and (min-width: 600px){
+      html{
+          background-color: lightpink;
+      }
   }
 
   @media (prefers-reduced-motion:reduce) {
