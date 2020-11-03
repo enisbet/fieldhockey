@@ -93,6 +93,7 @@ header{
 
   .contact-container{
     display:grid;
+    grid-template-columns: auto;
     grid-template-rows: 1fr 1fr; 
     grid-row-gap: 1em;
     padding-left: 20px;
@@ -130,7 +131,7 @@ header{
       flex-direction: column;
       background-color: paleturquoise;
   }
-  
+
   .statspic1, .statspic2,.statspic3, .statspic4,.statspic5, .statspic6, .statspic7, .statspic8, .statspic9{
       width: 100%;
       height:auto;
@@ -175,11 +176,17 @@ header{
       html{
           background-color: lightgreen;
       }
+      /* .statspic1:hover{ animation when hover over photo
+        transform: scale(1.25);
+        transition: transform 5s;
+      }
+       */
 }
 
 @media screen and (prefers-reduced-motion: reduce){
     #header-background{
       animation: none !important;
     }
+    
   }
 
