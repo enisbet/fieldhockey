@@ -48,13 +48,13 @@ header{
       padding-left: 10px;
       padding-right: 10px;
   }
-
+@media only screen and (max-width: 600px){
   @-webkit-keyframes logo_opacity{
     from {opacity:1;}
     to {opacity:.5;}
 
   
-  }
+   
   @keyframes logo_opacity{
     from {opacity:1;}
     to {opacity:.5;}
@@ -166,8 +166,9 @@ header{
 .stats_nine{
     grid-row: 9/auto;
 }
+  }
 
-  @media screen and (min-width: 850px){
+  @media screen and (min-width: 600px){
   }
 
   @media (prefers-reduced-motion:reduce) {
