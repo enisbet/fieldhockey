@@ -17,6 +17,7 @@ h1{
 } */
 
 header{
+    padding-top:10px;
     border-bottom: 3px solid navy;
     font-size: 2em;
     padding-bottom: 10px;
