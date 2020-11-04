@@ -24,19 +24,12 @@ header{
     /* display:flex; */ 
   }
   #header-background{
-      background: url("../imgs/fieldpic2.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size:cover;
       width: 100%;
-      height: 200px;
+      height:auto;
       animation-name: logo_opacity;
       animation-duration: 3s;
       /* animation-iteration-count: 1; */
-      
       opacity:.5;
-
-
   }
 
   main{
