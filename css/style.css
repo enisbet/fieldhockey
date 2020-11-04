@@ -103,11 +103,11 @@ header{
   }
   
   .info, .aboutme{
-    border: 2px solid purple;
+    border: 2px solid pink;
     padding: 10px;
     background: lightgray;
     text-align: left;
-    width : auto;
+    width : 100%;
     height: auto;
 
   }
