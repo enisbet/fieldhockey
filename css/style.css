@@ -103,7 +103,7 @@ header{
   }
   
   .info, .aboutme{
-    border: 2px solid navy;
+    border: 2px solid purple;
     padding: 10px;
     background: lightgray;
     text-align: left;
