@@ -94,10 +94,10 @@ header{
   .contact-container{
     display:grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto; 
+    grid-template-rows: repeat(2,auto); 
     grid-row-gap: 1em;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
     
    
   }
@@ -110,9 +110,11 @@ header{
 
   }
   .aboutme{
+      grid-column: 1/auto;
       grid-row: 1/auto;
   }
   .info{
+      grid-column: 1/auto;
       grid-row: 2/auto;
   }
 
