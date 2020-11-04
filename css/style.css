@@ -103,12 +103,12 @@ header{
   }
   
   .info, .aboutme{
-    border: 2px solid navy;
+    border: 2px solid yellowgreen;
     padding: 10px;
     background: lightgray;
     text-align: left;
   }
-  .aboutme p{
+  .info p{
     word-wrap: break-word;
   }
   .aboutme{
