@@ -10,6 +10,7 @@ h1{
     font-size: 1em;
 }
 .skip {
+  font-size: .75em;
   position: absolute;
   top: -1000px;
   left: -1000px;
