@@ -198,9 +198,9 @@ header{
 
 
 @media all and (min-width: 800px){
-      html{
+      /* html{
           background-color: lightgreen;
-      }
+      } */
       /* .statspic1:hover{ animation when hover over photo
         transform: scale(1.25);
         transition: transform 5s;
