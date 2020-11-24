@@ -249,25 +249,44 @@ header{
     }
       .stats_container{
         grid-template-columns: auto auto auto !important;
-        grid-template-rows: repeat(3,600px);
+        grid-template-rows: repeat(3,auto);
         grid-column-gap: 20px; 
         padding-left:30px;
         padding-right:30px;
       }
-      .stats_one:hover,.stats_two:hover,.stats_three:hover,.stats_four:hover,.stats_five:hover, .stats_six:hover,.stats_seven:hover, .stats_eight:hover,.stats_nine:hover{  
-        transform: scale(1.15);
+      .statspic1:hover,.statspic2:hover,.statspic3:hover,.statspic4:hover,.statspic5:hover, .statspic6:hover,.statspic7:hover, .statspic8:hover,.statspic9:hover{  
+        transform: scale(1.1);
       }
-      .statspic7{
-        width:300px;
-        align-self: center;
-      }
+      
    
       /* .statspic1:hover{ animation when hover over photo
         transform: scale(1.25);
         transition: transform 5s;
       }
        */
+       /* .stats_five{
+         grid-row:3/auto;
+         grid-column: 1/auto;
+       }
+       */
+       .stats_seven{
+         grid-row: 2/auto;
+         grid-column: 1/auto;
+       }
+       .stats_four{
+         grid-row: 3/auto;
+         grid-column: 1/auto;
+       }
+       .stats_nine{
+         grid-row: 1/auto;
+         grid-column: 3/auto;
+       }
+       .stats_three{
+         grid-row: 3/auto;
+         grid-column: 3/auto;
+       }
 }
+
 
 @media screen and (prefers-reduced-motion: reduce){
     #header-background{
