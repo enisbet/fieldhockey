@@ -11,7 +11,11 @@ html{
     line-height: 2;
 }
 h1{
-    font-size: 1.25em;
+    font-size: 1.5em !important;
+    text-align:center !important;
+    padding-bottom:20px;
+    /* text-decoration-line: underline; */
+    font-style:italic;
 }
 .skip {
   font-size: .75em;
@@ -51,6 +55,7 @@ header{
     text-align:center;
     color:cornsilk;
     
+    
   }
 /*   
   #header-background{		   
@@ -69,16 +74,14 @@ header{
   
 
   main{
-    /* display:flex; */
+ 
       width: auto;
       height: auto;
       color: black;
       padding-top: 20px;
       padding-bottom: 20px;
-      /* border: 2px solid navy; */
-      position: relative;
 
-      /* flex-direction: column; */
+      position: relative;
       background-color:cornsilk;
       margin-left: 30px;
       margin-right:30px;
@@ -117,13 +120,13 @@ header{
   }
   
   .nav_item a{
-    color: navy;
+    color: black;
     text-decoration: none;
     /* padding-top: 100px; */
   }
 
   .nav_item a:hover{
-    color: rgb(4, 4, 19);
+    color: rgb(11, 11, 138);
     text-decoration: underline;
     -webkit-text-decoration-style: dotted;
             text-decoration-style: dotted;
@@ -138,40 +141,28 @@ header{
     color:cornsilk;
 
   }
+  #indexfooter{
+    bottom:0;
+    position:fixed;
+  }
 
   .contact-container{
-    display:grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(3,auto); 
-    grid-row-gap: 20px;
+    display:flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     padding-left: 20px;
     padding-right: 20px; 
   }
   
   .info, .aboutme,form{
-    border: 2px solid navy;
+    border: 2px solid black;
+    margin-bottom: 10px;
     padding: 10px;
-    background: lightgray;
+    /* background: lightgray; */
     text-align: left;
   }
   .info p{
     word-wrap: break-word;
-  }
-  .aboutme{
-      grid-column: 1/auto;
-      grid-row: 1/auto;
-  }
-  .info{
-      grid-column: 1/auto;
-      grid-row: 2/auto;
-  }
-  form{
-    grid-column: 1/auto;
-    grid-row: 3/auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: -20px;
-    margin-bottom: 20px;
   }
 
   legend{ 
@@ -270,11 +261,21 @@ header{
       margin-right:auto;
       margin-left:auto;
     }
-    .stats_container{
-      width: 900px;
+    #aboutmain{
+      margin-top: 75px;
     }
-  
+    #statsmain{
+      width: 1000px;
+      height: auto;
+    }
+    /* #contactmain{
+      width: 800px;
+    }
+    .info, .aboutme,form{
+      width: 400px; */
+    }
     .nav_links{
+      height:100px;
       flex-direction: row;
       font-size: 1.1em;
       padding-bottom:10px;
@@ -292,18 +293,6 @@ header{
       .statspic1:hover,.statspic2:hover,.statspic3:hover,.statspic4:hover,.statspic5:hover, .statspic6:hover,.statspic7:hover, .statspic8:hover,.statspic9:hover{  
         transform: scale(1.5);
       }
-      
-   
-      /* .statspic1:hover{ animation when hover over photo
-        transform: scale(1.25);
-        transition: transform 5s;
-      }
-       */
-       /* .stats_five{
-         grid-row:3/auto;
-         grid-column: 1/auto;
-       }
-       */
        .stats_seven{
          grid-row: 2/auto;
          grid-column: 1/auto;
@@ -324,6 +313,7 @@ header{
          padding-top:30px;
          border-top: 2px solid navy;
        }
+    
        
 }
 
