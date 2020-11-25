@@ -233,9 +233,25 @@ header{
       width:auto;
   }
 
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .nav_links{
+      font-size:1.1em !important;
+      /* flex-direction: row !important; */
+      justify-content: space-evenly !important;
+  
+    }
+    #indexfooter{
+      position:fixed;
+    }
+    
+
+}
 
 
-@media all and (min-width: 800px){
+
+@media screen and (min-width: 1025px){
     /* html{
       background-color: pink;
     } */
@@ -266,7 +282,6 @@ header{
       flex-direction: row !important;
       font-size: 1em;
       justify-content: space-around;
-     
   
     }
       .stats_container{
