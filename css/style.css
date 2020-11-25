@@ -146,7 +146,10 @@ header{
     font-size: .75em;
     /* position: absolute; */
     /* bottom:0; */
-    color:cornsilk;
+    color:black;
+    width: 100%;
+    margin-top: 20px;
+    background: rgba(255, 248, 220, 0.8);
 
   }
   #indexfooter{
