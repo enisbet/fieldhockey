@@ -406,7 +406,9 @@ header{
     .statspic1:hover,.statspic2:hover,.statspic3:hover,.statspic4:hover,.statspic5:hover, .statspic6:hover,.statspic7:hover, .statspic8:hover,.statspic9:hover{  
       transform:none;
     }
-    
+    .flip-card:hover .flip-card-inner {
+      transform: none;
+    }
     
   }
 
