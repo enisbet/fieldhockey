@@ -326,6 +326,9 @@ header{
       padding-right:30px;
     }
     
+    #aboutmain{
+      margin-top: 75px;
+    }
     .stats_six{
       grid-row: 4/auto;
       grid-column: 1/auto;
