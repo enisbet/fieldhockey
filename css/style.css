@@ -1,6 +1,7 @@
 html{
     font-family: "Maitree", sans-serif;
     background-image: url("../imgs/umich4.jpeg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
