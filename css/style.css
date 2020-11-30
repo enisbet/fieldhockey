@@ -307,25 +307,38 @@ header{
     border-bottom-right-radius:10px;
     
   }
-
+/* TABLET VIEW */
   @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) {
     .nav_links{
       font-size:1.1em !important;
-      /* flex-direction: row !important; */
       justify-content: space-evenly !important;
-  
     }
     #indexfooter{
       position:fixed;
     }
+    .stats_container{
+      grid-template-columns: auto auto !important;
+      grid-template-rows: repeat(4,auto);
+      grid-column-gap: 20px; 
+      padding-left:30px;
+      padding-right:30px;
+    }
     
+    .stats_six{
+      grid-row: 4/auto;
+      grid-column: 1/auto;
+    }
+    .stats_seven{
+      grid-row: 3/auto;
+      grid-column: 2/auto;
+    }
 
 }
 
 
-
+/* LAPTOP VIEW */
 @media screen and (min-width: 1025px){
     /* html{
       background-color: pink;
