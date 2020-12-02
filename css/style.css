@@ -4,7 +4,7 @@ html{
      */
      background-image: url("../imgs/players.jpg");
     background-size: cover;
-    background-position: stretch;
+    /* background-position: 100; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color:whitesmoke;
