@@ -299,8 +299,8 @@ header{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: gray;
-    color: white;
+    background-color: black;
+    color: cornsilk;
     transform: rotateY(180deg);
     border-top-left-radius:10px;
     border-top-right-radius:10px;
