@@ -274,9 +274,12 @@ header{
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-   .flip-card:hover .flip-card-inner, .flip-card:active .flip-card-inner, .flip-card:focus .flip-card-inner{
-    transform: rotateY(180deg);
-  }
+  .flip-card:hover .flip-card-inner,
+  .flip-card:focus-within .flip-card-inner,
+  .flip-card:active .flip-card-inner,
+  .flip-card:focus .flip-card-inner{
+        transform: rotateY(180deg) !important;
+      }
   
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
@@ -364,6 +367,8 @@ header{
     /* html{
       background-color: pink;
     } */
+
+   
 
     #contactmain{
       width : 700px;
