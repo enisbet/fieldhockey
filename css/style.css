@@ -1,10 +1,7 @@
 html{
     font-family: "Maitree", sans-serif;
-    /* background-image: url("../imgs/umich4.jpeg");
-     */
      background-image: url("../imgs/players.jpg");
     background-size: cover;
-    /* background-position: 100; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color:whitesmoke;
@@ -17,7 +14,7 @@ h1{
     font-size: 1.5em !important;
     text-align:center !important;
     padding-bottom:20px;
-    /* text-decoration-line: underline; */
+  
     font-style:italic;
 }
 .skip {
@@ -42,15 +39,10 @@ a.skip:hover {
   overflow: visible; 
 }
 
-/* title {
-    display:flex;
-    justify-content: center;
-    align-items:center;
-} */
 
 header{
     padding-top:20px;
-    /* border-bottom: 3px solid navy; */
+
     position: sticky;
     font-size: 1.75em;
     padding-bottom: 10px;
@@ -102,7 +94,6 @@ header{
   } 
 
   .nav_links{ 
-      /* for small screen */
     width: 100%;
     height:auto;
     padding-top:10px;
@@ -150,7 +141,6 @@ header{
 
   .contact-container{
     display:flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px; 
@@ -231,8 +221,6 @@ header{
   .statspic1, .statspic2,.statspic3, .statspic4,.statspic5, .statspic6, .statspic7, .statspic8, .statspic9{
       width: 100%;
       height:auto;
-      
-
       border-top-left-radius:10px;
       border-top-right-radius:10px;
       border-bottom-left-radius:10px;
@@ -246,10 +234,8 @@ header{
       border-top: 2px solid navy;
   }
   .flip-card {
-    /* background-color: gray; */
     width: 250px;
     height: 300px;
-    /* border: 1px solid #f1f1f1; */
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin-left: auto;
     margin-right: auto;
@@ -329,7 +315,6 @@ header{
       height: auto;
       
     }
-
     
     .nav_links{
       font-size:1.1em !important;
@@ -367,12 +352,6 @@ header{
 
 /* LAPTOP VIEW */
 @media screen and (min-width: 1025px){
-    /* html{
-      background-color: pink;
-    } */
-
-   
-
     #contactmain{
       width : 700px;
     }
@@ -425,12 +404,7 @@ header{
       width: 1000px;
       height: auto;
     }
-    /* #contactmain{
-      width: 800px;
-    }
-    .info, .aboutme,form{
-      width: 400px; */
-    
+   
     .nav_links{
       height:75px;
       flex-direction: row !important;
@@ -468,11 +442,7 @@ header{
          padding-top:30px;
          
        }
-       /* #cardpic{
-         animation-name: opacity;
-         animation-duration: 10s;
-       }
-     */
+       
        
 }
 
@@ -482,7 +452,8 @@ header{
     #cardpic{
       animation: none !important;
     }
-    .statspic1:hover,.statspic2:hover,.statspic3:hover,.statspic4:hover,.statspic5:hover, .statspic6:hover,.statspic7:hover, .statspic8:hover,.statspic9:hover{  
+    .statspic1:hover,.statspic2:hover,.statspic3:hover,.statspic4:hover,.statspic5:hover, .statspic6:hover,
+    .statspic7:hover, .statspic8:hover,.statspic9:hover{  
       transform:none;
     }
     .flip-card:hover .flip-card-inner {
