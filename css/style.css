@@ -302,7 +302,7 @@ header{
   }
 /* TABLET VIEW */
   @media only screen 
-  and (min-width: 600px) 
+  and (min-width: 768px) 
   and (max-width: 1024px) {
     #abtandinfo{
       display: flex;
@@ -456,9 +456,12 @@ header{
     .statspic7:hover, .statspic8:hover,.statspic9:hover{  
       transform:none;
     }
-    .flip-card:hover .flip-card-inner {
-      transform: none;
-    }
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus-within .flip-card-inner,
+    .flip-card:active .flip-card-inner,
+    .flip-card:focus .flip-card-inner{
+          transform: none!important;
+        }
     
   }
 
