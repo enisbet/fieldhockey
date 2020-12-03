@@ -145,7 +145,7 @@ header{
   }
   #indexfooter{
     bottom:0;
-    position:fixed;
+    /* position:fixed; */
   }
 
   .contact-container{
